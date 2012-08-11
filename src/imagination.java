@@ -33,7 +33,7 @@ public class imagination extends JFrame {
     //Costruttore
     public imagination() {
     	//Proprietà principali della finestra del programma
-        setTitle("J2Web Immobiliare  -  versione 0.3.0 \u03B1");
+        setTitle("J2Web Immobiliare - Cividale Casa -  versione 0.3.0 \u03B1");
         setSize(1200,600);
         setIconImage(frameIcon);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
