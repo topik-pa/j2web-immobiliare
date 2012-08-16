@@ -8,6 +8,7 @@ import java.io.BufferedReader;
 import java.io.File;
 import java.io.IOException;
 import java.io.InputStreamReader;
+import java.net.URLEncoder;
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
@@ -926,7 +927,8 @@ public class Case24 extends PortaleImmobiliare {
     	
     	//Connessione 5 - GET di una pagina per passargli il codice agenzia e riferimento annuncio
         try {
-			connessione_5(new HttpGet(URL_ROOT + "/area_clienti/include/ajax.php?edit=valida_rif_agenzia&rif_agenzia=" + scheda.codice + "&codice_inserzione=&codice_cliente=" + CODICE_CLIENTE));
+        	String encodedSchedaCodice = URLEncoder.encode(scheda.codice,"UTF-8");
+			connessione_5(new HttpGet(URL_ROOT + "/area_clienti/include/ajax.php?edit=valida_rif_agenzia&rif_agenzia=" + encodedSchedaCodice + "&codice_inserzione=&codice_cliente=" + CODICE_CLIENTE));
 		} catch (IOException | HttpResponseException e ) {
 			manageErrors(e, 3);
             return;

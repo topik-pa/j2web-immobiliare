@@ -2104,13 +2104,13 @@ public class ImmobiliarePuntoIt extends PortaleImmobiliare {
 	public void valutaDescrizione_it() {
 		descrizione_it = scheda.descrEstesa;
 		//Problemi con l'encoding...
-		descrizione_it = descrizione_it.replace("à", "a'");
-		descrizione_it = descrizione_it.replace("è", "Ã¨");
-		descrizione_it = descrizione_it.replace("ì", "Ã¬");
-		descrizione_it = descrizione_it.replace("ò", "Ã²");
-		descrizione_it = descrizione_it.replace("ù", "Ã¹");
-		descrizione_it = descrizione_it.replace("€", "â‚¬");
-		descrizione_it = descrizione_it.replace("&", "Â£ ");
+		descrizione_it = descrizione_it.replace("�", "a'");
+		descrizione_it = descrizione_it.replace("�", "è");
+		descrizione_it = descrizione_it.replace("�", "ì");
+		descrizione_it = descrizione_it.replace("�", "ò");
+		descrizione_it = descrizione_it.replace("�", "ù");
+		descrizione_it = descrizione_it.replace("�", "€");
+		descrizione_it = descrizione_it.replace("&", "£ ");
 		System.out.println("descrizione_it: " + descrizione_it);
 	}
 	
