@@ -47,9 +47,9 @@ public class Case24 extends PortaleImmobiliare {
     //Parametri generali
 	private final String NOMEPORTALE = "case24.it";
 	private final String URL_ROOT = "http://www.case24.it";
-	private final String USERNAME = "vgltoove@sharklasers.com";
-    private final String PASSWORD = "nki9stjl";
-    private final String CODICE_CLIENTE ="1340103900";
+	private final String USERNAME = "info@cividalecasa.it";
+    private final String PASSWORD = "m193evro";
+    private final String CODICE_CLIENTE ="1332323000";
     private final String USER_AGENT = "Mozilla/5.0 (Windows NT 5.1; rv:12.0) Gecko/20100101 Firefox/12.0";
     private String SESSIONCOOKIE_HEADER = "";
     private String SESSIONCOOKIE_NAME = "";

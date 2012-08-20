@@ -41,8 +41,8 @@ public class PagineCasa extends PortaleImmobiliare {
 	private final String NOMEPORTALE = "paginecasa.com";
 	private final String CODICE_PORTALE = "005";
 	private final String URL_ROOT = "http://paginecasa.com";
-	private final String USERNAME = "vgltoove@sharklasers.com";
-    private final String PASSWORD = "test1234";
+	private final String USERNAME = "cividalecasa";
+    private final String PASSWORD = "blaste159";
     private final String USER_AGENT = "Mozilla/5.0 (Windows NT 5.1; rv:12.0) Gecko/20100101 Firefox/12.0";
     private String CODICEINSERZIONE;
     private boolean INSERIMENTO_OK = false;
