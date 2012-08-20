@@ -47,8 +47,8 @@ public class ImmobiliarePuntoIt extends PortaleImmobiliare {
     //Parametri generali
 	private final String NOMEPORTALE = "immobiliare.it";
 	private final String URL_ROOT = "http://getrix.ekbl.net";	//immobiliare.it si appoggia a Getrix
-    private final String USERNAME = "jyvqcgbg@sharklasers.com";
-    private final String PASSWORD = "jsncqdtp";
+    private final String USERNAME = "info@cividalecasa.it";
+    private final String PASSWORD = "rm3s82fb";
     private final String USER_AGENT = "Mozilla/5.0 (Windows NT 5.1; rv:12.0) Gecko/20100101 Firefox/12.0";
     private String SESSIONCOOKIE_HEADER = "";
     private String SESSIONCOOKIE_NAME = "";

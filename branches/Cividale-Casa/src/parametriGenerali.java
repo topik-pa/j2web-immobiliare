@@ -18,7 +18,7 @@ public interface parametriGenerali {
 	final int EMAIL_1_SMTP_PORT =465;
 	
 	//Mail del backend
-	final String EMAIL_BACKEND ="marco--pavan@libero.it";
+	final String EMAIL_BACKEND ="info@cividalecasa.it";
 		
 	//La struttura dati che contiene gli oggetti PortaliImmobiliare creati
 	public LinkedList<PortaleImmobiliare> listPortaliImmobiliari = new LinkedList<PortaleImmobiliare>();	

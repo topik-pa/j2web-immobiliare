@@ -44,9 +44,9 @@ public class BancaDelleCase extends PortaleImmobiliare {
     //Parametri generali
 	private final String NOMEPORTALE = "bancadellecase.it";
 	private final String URL_ROOT = "http://www.bancadellecase.it";
-	private final String USERNAME = "casavuoi";
-    private final String PASSWORD = "s7o4f2";
-    private final String IDAGENZIA = "667";
+	private final String USERNAME = "info@cividalecasa.it";
+    private final String PASSWORD = "9ifphv";
+    private final String IDAGENZIA = "2013";
     private final String USER_AGENT = "Mozilla/5.0 (Windows NT 5.1; rv:12.0) Gecko/20100101 Firefox/12.0";
     private String SESSIONCOOKIE_HEADER = "";
     private String SESSIONCOOKIE_NAME = "";
